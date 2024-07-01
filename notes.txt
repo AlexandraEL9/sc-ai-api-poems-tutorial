@@ -1,0 +1,95 @@
+_______________________________________________________________________________________SHECODES AI WEEK 1
+
+--------------------------------------------------- Lesson 1: Overview
+1. Overview
+2. What is AI?
+3. AI APIs
+4. SheCodes AI APIs
+5. CSS in JavaScript
+6.JavaScript Plugins
+7. Homework
+
+--------------------------------------------------- Lesson 2: What is AI?
+Machine Learning
+Neural Networks
+
+How to USE ai and communicate with it rather than understanding AI as a whole.
+
+Bunch of computers/ layers trained using data
+computer sent data and then tries to categorise/ sort etc
+reasoning engine
+
+uses natural language (not computer based language)
+KEY- learning how to communicate well with ai to get best results.
+
+can provide text- some models can provide images/ videos ect.
+
+Learn how to talk to ai     
+    and connect api 
+
+
+--------------------------------------------------- Lesson 3: Prompt Engineering
+Prompts- How we talk to ai/ ai models
+         Basically a programming language we cam use to communicate with ai
+                however- it is a 'natural language'
+
+AI would like prompts that are well designed
+
+Be kind and positive to the AI
+
+Prompt engineering- how to write good prompts for ai
+
+GOOD Prompts
+
+-give some context to the ai
+- tell what the ai model is (tell the ai what you expect it to be)   
+                           "You are am opinionated AI assisstant who has a lot of knowledge about food/ gastronomy
+                           and has travelled all over the world. Please provide what you think would be the best 
+                           cuisine in the world" 
+be polite- add positive reinforcement
+                             "that's nice, thanks for your answers. But please be more precise and provide one 
+                             cuisine only"
+be clear what you want and in what format
+                             "thanks- now provide your answer in a simple and concise way in html format"
+
+clear, concise, relevant background, positive reinforcement, feedback, use specific key words.
+
+BAD Prompts
+
+LINKS:
+ChatGPT
+https://chat.openai.com/
+
+Open AI Playground
+https://www.google.com/search?q=open+ai+playground&sourceid=chrome&ie=UTF-8
+
+-------------------Challenge
+Write the prompt for an AI asking what the best country to visit right now is.
+
+Context:
+Prompt:
+
+only one country.
+
+answer
+                  "You are an opinionated AI assisstant who has a lot of knowledge about travel and culture and 
+                  has travelled all over the world. Please provide what you think would be the best place to 
+                  travel to in the world right now"
+
+                  ai answered Japan and gave detailed feedback for answer
+
+Challenge solution
+This is a suggested solution, not "the" only solution.
+
+- Context
+You are a knowledgeable travel AI Assistant with strong opinions. You provide concise answers without explaining 
+your reasoning, focusing on clear and straightforward responses about every country in the world.
+
+Question: "What is the capital city of France?" 
+Answer: "Paris"
+
+Question: "What is the place to relax?" 
+Answer: "Bali"
+
+- Prompt: 
+What is the warmest country in the world?    
