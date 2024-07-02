@@ -93,3 +93,13 @@ Answer: "Bali"
 
 - Prompt: 
 What is the warmest country in the world?    
+
+
+--------------------------------------------------- Lesson 4: AI APIs
+AIs
+openai
+aws
+assemblyAI
+
+openai
+https://platform.openai.com/docs/overview
