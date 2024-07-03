@@ -103,3 +103,77 @@ assemblyAI
 
 openai
 https://platform.openai.com/docs/overview
+
+
+--------------------------------------------------- Lesson 5: SheCodes AI APIs
+
+
+
+LINKS
+SheCodes AI API
+https://www.shecodes.io/learn/apis/ai
+
+API KEY 06a59897dof9572ebabb740ftb4354ba
+
+
+note/ example
+https://api.shecodes.io/ai/v1/generate?prompt={prompt}&context={context}&key={key}
+
+PARAMETERS
+prompt- required- The AI prompt (example: What is the capital city of Portugal)
+key- required- your api key: 06a59897dof9572ebabb740ftb4354ba
+context- optional- The AI assistant context (example: Make sure to provide a clear and precise answer)
+
+EXAMPLE
+
+EX- api call
+Get the author of Harry Potter books
+https://api.shecodes.io/ai/v1/generate?prompt=who is the author of all Harry Potter books&context=
+please be precise&key=06a59897dof9572ebabb740ftb4354ba
+
+ex- responses
+{
+  "prompt": "who is the author of all Harry Potter books",
+  "context": "please be precise",
+  "answer": "The author of all the Harry Potter books is J.K. Rowling."
+}
+
+BUILD
+create api key variable
+let apiKey = "06a59897dof9572ebabb740ftb4354ba";
+
+create api url variable
+let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+create variable for context
+let context =
+    "be polite and provide a very short answer. make sure to pick one";
+
+create variable for prompt
+ let prompt = "what's the best cuisine in the world?";
+
+add axios
+axios.get(apiUrl).then(showAnswer);
+in html head <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+create showAnswer function
+function showAnswer(response) {
+    alert(response.data.answer);
+  }
+
+
+COMPLETED JavaScript
+function showAnswer(response) {
+    alert(response.data.answer);
+  }
+  
+  let apiKey = "06a59897dof9572ebabb740ftb4354ba";
+  let context =
+    "be polite and provide a very short answer. make sure to pick one";
+  let prompt = "what's the best cuisine in the world?";
+  let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+  console.log("Processing")
+  axios.get(apiUrl).then(showAnswer);
+
+
+
