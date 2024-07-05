@@ -175,5 +175,78 @@ function showAnswer(response) {
   console.log("Processing")
   axios.get(apiUrl).then(showAnswer);
 
+--------------------------------------------------- Lesson 6: CSS in JavaScript
+play with html and css from JavaScript
+not used often but for specific issues / contexts
+
+  function handleClick() {
+    alert("hooray");
+  }
+  let buttonElement = document.querySelector("#special-button");
+  buttonElement.addEventListener("click", handleClick);
+
+
+  - use attributes.
+  js has access to html attributes     eg buttonElement
+          console.log(buttonElelment.attributes.id);
+
+    attrubute of an element is anything inside of an element's opening tag-   id/ class/ type=""   etc
+
+can use js to set attributes using setAttributs
+           console.log(buttonElement.setAttribute("class", "warning"));
+
+WHY? might need to disable a button when something specific button
+
+---class list and style
+
+              buttonElement.style.color = "red";
+
+              heading.classList.add("highlight");
+              heading.classList.remove("highlight");
+              heading.classList.toggle("highlight");
+
+usage- hide and element
+
+              heading.style.display = "none";
+              or
+              heading.classList.add("hidden")
+                    then in css
+                         .hidden {
+                          display: none;
+                         }
+
+
+use camelCase not dash eg not border-radius becomes borderRadius
+
+3 ways-
+   use attributes (not used often)
+
+   use innerHTML
+
+   use setAttribute
+
+   use element.style.__=     ;
+
+   use element.classlist.add/remove/toggle("classlist name");
+SNIPPETS
+
+-HTML attributes manipulation
+let button = document.querySelector("input#button");
+button.setAttribute("disabled", "disabled");
+
+let email = document.querySelector("input#email");
+email.removeAttribute("required");
+
+-CSS styles
+let boxElement = document.querySelector("#box");
+boxElement.style.backgound = "red";
+boxElement.style.padding = "10px 20px";
+boxElement.style.marginRight = "10px";
+
+-HTML classes
+let li = document.querySelector("li#special");
+li.classList.remove("liked");
+li.classList.add("something");
+--------------------------------------------------- Lesson 7: JavaScript plugins
 
 
