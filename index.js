@@ -30,3 +30,14 @@ challenge2Button.style.backgroundColor = "green";
 // chall 3
 var challenge3Button = document.querySelector("#challenge-3");
 challenge3Button.classList.add("danger");
+
+//lesson 7 js plugins
+
+let heading = document.querySelector("h1");
+
+new Typewriter('h1', {
+  strings: "Hello World! Welcome to SheCodes!",
+  autoStart: true,
+  cursor: "",
+  delay: 10,
+});

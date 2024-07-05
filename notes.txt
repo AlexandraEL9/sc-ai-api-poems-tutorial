@@ -247,6 +247,22 @@ boxElement.style.marginRight = "10px";
 let li = document.querySelector("li#special");
 li.classList.remove("liked");
 li.classList.add("something");
+
+
 --------------------------------------------------- Lesson 7: JavaScript plugins
+js plugins- are libraries/ sourcecode so don't have to reinvent wheel.
+use saringly/ juciciously- only when needed.
 
+eg- typewritier animantion
+let heading = document.querySelector("h1");
 
+new Typewriter('h1', {
+  strings: "Hello World",
+  autoStart: true,
+});
+
+stop deletion- make a string with "" instead of an array []
+
+LINKS
+TypewriterJS Plugin
+https://github.com/tameemsafi/typewriterjs
