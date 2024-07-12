@@ -21,7 +21,7 @@ function generateAffirmation(event) {
     // Get the user instructions from the input element with the ID 'user-instructions'
     let instructionsInput = document.querySelector("#user-instructions");
     // Define the API key for authentication
-    let apiKey = "2046c535afeb092fo82f1d306d8a2b2t";
+    let apiKey = "06a59897dof9572ebabb740ftb4354ba";
     // Define the context to guide the AI's affirmation generation
     let context = `
         You are a health and wellbeing expert and love to craft positive affirmations.
