@@ -68,7 +68,7 @@ body {
     padding: 14px 24px;
   }
   
-  .poem {
+  .affirm {
     font-size: 16px;
     background-color: white;
     padding: 20px;
@@ -81,7 +81,7 @@ body {
     display: none;
   }
   
-  .poem strong {
+  .affirm strong {
     color: darkslategrey;
   }
   
