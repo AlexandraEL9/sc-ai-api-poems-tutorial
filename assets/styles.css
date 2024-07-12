@@ -3,7 +3,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
   
-  a {
+  a, strong{
     color: darkslategrey;
   }
   
@@ -22,6 +22,10 @@ body {
     font-size: 36px;
     line-height: 1.5;
     color: darkslategrey;
+  }
+  h2 {
+    color: darkslategrey;
+
   }
   
   .form-container {
